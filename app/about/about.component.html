@@ -1,0 +1,9 @@
+<p>Click on below button to get the contact detail.</p>
+
+<button class="btn btn-primary" (click)="getContactDetail()">Click to get Contact detail</button>
+<br/>
+<br/>
+<div *ngIf="about.Name && about.Phone">
+  <div>Name:{{about.Name}}</div>
+  <div>Phone:{{about.Phone}} </div>
+</div>

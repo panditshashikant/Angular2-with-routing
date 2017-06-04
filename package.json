@@ -1,0 +1,27 @@
+{
+  "name": "angular2assignment",
+  "version": "1.0.0",
+  "description": "This is angular2 assignment.",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common":"2.3.1",
+    "@angular/compiler": "2.3.1",
+    "@angular/core": "2.3.1",
+    "@angular/forms": "2.3.1",
+    "@angular/http": "2.3.1",
+    "@angular/platform-browser": "2.3.1",
+    "@angular/platform-browser-dynamic": "2.3.1",
+    "@angular/router": "3.3.1",
+    "concurrently": "3.1.0",
+    "lite-server": "2.2.2",
+    "rxjs": "5.0.1",
+    "typescript": "2.1.4",
+    "typings": "2.0.0",
+    "zone": "0.3.4"
+  }
+}
